@@ -1,0 +1,20 @@
+{
+    "name": "jameslilliott/james-logger",
+    "description": "A Logger to learn how to make a package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jameslilliott\\JamesLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JamesLilliott",
+            "email": "jameslilliott1997@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "psr/log": "^2.0 || ^3.0"
+    }
+}
