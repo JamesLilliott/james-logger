@@ -19,6 +19,11 @@
         "psr/log": "^2.0 || ^3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.1"
+        "phpunit/phpunit": "^10.1",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests",
+        "stan": "./vendor/bin/phpstan analyse src tests --level 5"
     }
 }
